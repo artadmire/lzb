@@ -1,0 +1,45 @@
+import React, {useState} from 'react'
+import './App.css';
+import { Tabs } from 'antd';
+import Home from './pages/home'
+import About from './pages/about'
+import Fud from './pages/fud'
+import Contact from './pages/contact'
+import 'antd/dist/antd.css';
+
+
+const { TabPane } = Tabs;
+
+function App() {
+  const [tabKey, setTabkey] = useState('1');
+  function callback(key) {
+    setTabkey(key)
+  }
+  return (
+    <div className="App">
+        <div className="content">
+        <header>
+          <h2></h2>
+          <div>
+            <Tabs 
+            defaultActiveKey={tabKey}
+            onChange={callback}
+            tabBarStyle={{color: '#FFF'}}
+            >
+              <TabPane tab="HOME" key="1"/>
+              <TabPane tab="ABOUT" key="2"/>
+              <TabPane tab="INVESTMENTS" key="3" />
+              <TabPane tab="CONTACT US" key="4" />
+            </Tabs>
+          </div>
+        </header>
+        {tabKey === '1' && <Home />}
+        {tabKey === '2' && <About />}
+        {tabKey === '3' && <Fud />}
+        {tabKey === '4' && <Contact />}
+      </div>
+    </div>
+  );
+}
+
+export default App;

@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  min-height: 100vmin;
+  background: url('./assets/img/bg.png') no-repeat center/cover;
+}
+.content {
+  width: 1000px;
+}
+.content>header {
+  display: flex;
+  justify-content: space-between;
+}
+.content>header>h2 {
+  width: 164px;
+  height: 45px;
+  background: url('./assets/img/logo@2x.png');
+  background-size: 164px 45px;
+}
+.ant-tabs-top > .ant-tabs-nav::before, .ant-tabs-bottom > .ant-tabs-nav::before, .ant-tabs-top > div > .ant-tabs-nav::before, .ant-tabs-bottom > div > .ant-tabs-nav::before {
+  border: 0 !important
+}
+.ant-tabs-tab.ant-tabs-tab-active {
+  border: 0 !important
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
