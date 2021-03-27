@@ -13,7 +13,7 @@
 .des .title {
   color: #FFFFFF;
 }
-.des {
+.home .des {
   margin-bottom: 56px;
 }
 .home .about {
@@ -24,4 +24,7 @@
   color: #EFBB24;
   line-height: 30px;
   border-bottom: 2px solid #EFBB24;
+}
+.home-bottom {
+  margin-top: 124px;
 }

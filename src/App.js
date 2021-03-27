@@ -7,7 +7,6 @@ import Fud from './pages/fud'
 import Contact from './pages/contact'
 import 'antd/dist/antd.css';
 
-
 const { TabPane } = Tabs;
 
 function App() {
@@ -16,7 +15,7 @@ function App() {
     setTabkey(key)
   }
   return (
-    <div className="App">
+    <div className={`App ${tabKey === '1' && 'appBg'} ${tabKey === '2' && 'aboutBg'}`}>
         <div className="content">
         <header>
           <h2></h2>
@@ -24,7 +23,7 @@ function App() {
             <Tabs 
             defaultActiveKey={tabKey}
             onChange={callback}
-            tabBarStyle={{color: '#FFF'}}
+            tabBarStyle={tabKey === '1' ? {color: '#FFF'} : {color: 'black'}}
             >
               <TabPane tab="HOME" key="1"/>
               <TabPane tab="ABOUT" key="2"/>

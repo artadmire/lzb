@@ -31,26 +31,27 @@
 }
 .my-about-mddle .card {
   width: 274px;
-  height: 178px;
+  height: 180px;
   background: #FFFFFF;
   box-shadow: 0px 4px 20px 5px rgba(0, 0, 0, 0.05);
   margin-bottom: 10px;
 }
 .my-about-mddle .card-grids {
-  width: 560px;
+  width: 580px;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
   justify-content: space-between;
 }
 .my-about-mddle .top-aside {
   display: flex;
+  justify-content: space-between;
 }
 .my-about-mddle .top-aside .logs {
   width: 545px;
+  height: 455px;
 }
 .my-about-mddle .imgWrap {
-  width: 340px;
+  width: 580px;
   height: 370px;
   background: url('../../assets//img/编组\ 7@2x.png') no-repeat left bottom/contain;
   display: flex;
@@ -61,6 +62,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
-  color: black;
+  margin-top: 120px;
+}
+.myBottom.my-about-bottom .contact {
+  color: #1F2931;
+}
+.myBottom.my-about-bottom .copy {
+  color: #4A4A4A;
 }

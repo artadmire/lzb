@@ -4,7 +4,7 @@
 .icon img{
   width: 42px;
   height: 42px;
-  border: 1px dashed #FFF;
+  border: 1px dashed #555657;
   margin-right: 10px;
 }
 .myBottom .contact{
@@ -15,6 +15,7 @@
   color: #FFFFFF;
   line-height: 21px;
   margin-top: 16px;
+  margin-bottom: 24px;
 }
 .myBottom .copy{
   height: 20px;

@@ -11,7 +11,7 @@ function Home() {
         <p>Blockchain Entrepreneurs</p>
       </div>
       <a href="" className="about">ABOUT  FFCAP</a>
-      <MyBottom/>
+      <MyBottom className="home-bottom"/>
     </div>
   );
 }
