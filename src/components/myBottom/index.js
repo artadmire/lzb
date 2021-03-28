@@ -13,7 +13,7 @@ function myBottom(props) {
         <img src='https://ffcap.oss-cn-hangzhou.aliyuncs.com/img/email%402x.png'/>
       </div>
       <p className="contact">contact@ffcap.com</p>
-      <p className="copy">c© 2021 FFCAP</p>
+      <p className="copy">© 2021 FFCAP</p>
     </div>
   );
 }

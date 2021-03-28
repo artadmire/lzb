@@ -2,10 +2,11 @@
 .my-about {
   background: #fff;
 }
-.my-about h1 {
+.my-about .h1title {
   font-size: 24px;
   line-height: 30px;
   margin-bottom: 56px;
+  font-weight: 600;
 }
 .my-about .content .title {
   font-size: 16px;
