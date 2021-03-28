@@ -12,7 +12,15 @@ import plm from  '../../assets/img/plm.png'
 
 
 function Fud() {
-  const [list] = useState([matic,inch,aave,dot,ksm,mdx,near,plm])
+  const [list] = useState([
+    {img:matic, title: "MATIC" },
+    {img:inch, title: "1INCH" },
+    {img:aave, title: "AAVE" },
+    {img:dot, title: "DOT" },
+    {img:ksm, title: "KSM" },
+    {img:mdx, title: "MDX" },
+    {img:near, title: "NEAR" },
+    {img:plm, title: "PLM" }])
   return (
     <div className="Fud">
       <div>
@@ -20,8 +28,8 @@ function Fud() {
         <div className="content">
         {
           list.map((item, index) => <div key={index} className="card">
-          <img src={item}/>
-          <p>Company profile</p>
+          <img src={item.img}/>
+          <p>{item.title}</p>
         </div>)
         }
         

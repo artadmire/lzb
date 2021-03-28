@@ -18,7 +18,7 @@ function App() {
     <div className={`App ${tabKey === '1' && 'appBg'} ${tabKey === '2' && 'aboutBg'}`}>
         <div className="content">
         <header>
-          <h2></h2>
+          <h2 className={tabKey !== '1' && 'logoH2'}></h2>
           <div>
             <Tabs 
             defaultActiveKey={tabKey}
