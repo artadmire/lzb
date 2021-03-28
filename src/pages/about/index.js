@@ -1,7 +1,6 @@
 import React from 'react'
 import './index.css'
 import img2 from '../../assets/img/编组 8@2x.png'
-import img3 from '../../assets/img/编组 7@2x.png'
 import MyBottom from  '../../components/myBottom'
 function About() {
   return (
