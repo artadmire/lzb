@@ -12,8 +12,10 @@ p {
   height: 100%;  
 }
 .appBg {
-  background: url('./assets/img/bg@2.png') no-repeat center;
-  background-size: 106% 100%;
+  background-image: url('./assets/img/hbj@2x.png'), url('./assets/img/hbg3@2x.png'), url('./assets/img/bg@2.png');
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: right top, right 390px, center bottom;
+  background-size: 100% 320px, 100% 600px, 106% 100%;
   background-attachment:fixed;
 }
 .aboutBg {
@@ -42,7 +44,12 @@ p {
 .ant-tabs-tab.ant-tabs-tab-active {
   border: 0 !important
 }
-
+.ant-tabs-ink-bar{
+  background: none !important;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+  color: #EFBB24 !important;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
