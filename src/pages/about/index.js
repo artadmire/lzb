@@ -28,22 +28,22 @@ function About() {
           <p className="h1title">PARTNERSHIPS</p>
           <aside className="top-aside">
             <div className="card-grids">
-              <div className="card"></div>
-              <div className="card"></div>
-              <div className="card"></div>
-              <div className="card"></div>
+              <a href="javascript:;" className="card"></a>
+              <a href="javascript:;" className="card"></a>
+              <a className="card"></a>
+              <a className="card"></a>
             </div>
             <img className="logs" src='https://ffcap.oss-cn-hangzhou.aliyuncs.com/img/icon1.png'/>
           </aside>
           <aside className="top-aside">
             <div className="imgWrap">
-              <div className="card"></div>
+              <a  href="javascript:;" className="card"></a>
             </div>
             <div className="card-grids">
-              <div className="card"></div>
-              <div className="card"></div>
-              <div className="card"></div>
-              <div className="card"></div>
+              <a href="javascript:;" className="card"></a>
+              <a href="javascript:;" className="card"></a>
+              <a href="javascript:;" className="card"></a>
+              <a href="javascript:;" className="card"></a>
             </div>
           </aside>
         </div>

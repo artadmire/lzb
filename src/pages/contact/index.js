@@ -7,10 +7,10 @@ function Contact() {
         <img src='https://ffcap.oss-cn-hangzhou.aliyuncs.com/img/%E4%BD%8D%E5%9B%BE%402x.png'/>
         <p >Contact By App</p>
         <div className="icons">
-          <img src='https://ffcap.oss-cn-hangzhou.aliyuncs.com/img/twitter%402x.png'/>
-          <img src='https://ffcap.oss-cn-hangzhou.aliyuncs.com/img/discord%402x.png'/>
-          <img src='https://ffcap.oss-cn-hangzhou.aliyuncs.com/img/medium%402x.png'/>
-          <img src='https://ffcap.oss-cn-hangzhou.aliyuncs.com/img/telegram%402x.png'/>
+          <a href="javascript:;"><img src='https://ffcap.oss-cn-hangzhou.aliyuncs.com/img/twitter%402x.png'/></a>
+          <a href="javascript:;"><img src='https://ffcap.oss-cn-hangzhou.aliyuncs.com/img/discord%402x.png'/></a>
+          <a href="javascript:;"><img src='https://ffcap.oss-cn-hangzhou.aliyuncs.com/img/medium%402x.png'/></a>
+          <a href="javascript:;"><img src='https://ffcap.oss-cn-hangzhou.aliyuncs.com/img/telegram%402x.png'/></a>
         </div>
       </div>
       <div className="card">

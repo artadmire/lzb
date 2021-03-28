@@ -19,7 +19,7 @@ function Fud() {
         <div className="content">
         {
           list.map((item, index) => <div key={index} className="card">
-          <img src={item.img}/>
+            <a href="javascript:;"><img src={item.img}/></a>
           <p>{item.title}</p>
         </div>)
         }
