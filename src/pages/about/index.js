@@ -1,6 +1,5 @@
 import React from 'react'
 import './index.css'
-import img2 from '../../assets/img/编组 8@2x.png'
 import MyBottom from  '../../components/myBottom'
 function About() {
   return (
@@ -38,7 +37,7 @@ function About() {
               <div className="card"></div>
               <div className="card"></div>
             </div>
-            <img className="logs" src={img2}/>
+            <img className="logs" src='https://ffcap.oss-cn-hangzhou.aliyuncs.com/img/icon1.png'/>
           </aside>
           <aside className="top-aside">
             <div className="imgWrap">

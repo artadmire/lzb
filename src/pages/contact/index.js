@@ -1,27 +1,20 @@
 import React from 'react'
 import './index.css'
-import a from '../../assets/img/twitter@2x.png'
-import b from '../../assets/img/discord@2x.png'
-import c from '../../assets/img/medium@2x.png'
-import d from '../../assets/img/telegram@2x.png'
-import wei1 from '../../assets/img/位图@2x.png'
-import wei2 from '../../assets/img/位图@2x 2.png'
-
 function Contact() {
   return (
     <div className="Contact">
       <div className="card">
-        <img src={wei1}/>
+        <img src='https://ffcap.oss-cn-hangzhou.aliyuncs.com/img/%E4%BD%8D%E5%9B%BE%402x.png'/>
         <p>Contact By App</p>
         <div className="icons">
-          <img src={a}/>
-          <img src={b}/>
-          <img src={c}/>
-          <img src={d}/>
+          <img src='https://ffcap.oss-cn-hangzhou.aliyuncs.com/img/twitter%402x.png'/>
+          <img src='https://ffcap.oss-cn-hangzhou.aliyuncs.com/img/discord%402x.png'/>
+          <img src='https://ffcap.oss-cn-hangzhou.aliyuncs.com/img/medium%402x.png'/>
+          <img src='https://ffcap.oss-cn-hangzhou.aliyuncs.com/img/telegram%402x.png'/>
         </div>
       </div>
       <div className="card">
-        <img src={wei2}/>
+        <img src='https://ffcap.oss-cn-hangzhou.aliyuncs.com/img/%E4%BD%8D%E5%9B%BE%402x%202.png'/>
         <p>Contact By Email</p>
         <span>contact@ffcap.com</span>
       </div>
