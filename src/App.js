@@ -14,6 +14,10 @@ function App() {
   function callback(key) {
     setTabkey(key)
   }
+  function handleClick() {
+    console.log(2)
+    setTabkey("2")
+  }
   return (
     <div className={`App ${tabKey === '1' && 'appBg'} ${tabKey === '2' && 'aboutBg'}`}>
         <div className="content">
@@ -23,6 +27,7 @@ function App() {
             <Tabs 
             defaultActiveKey={tabKey}
             onChange={callback}
+            activeKey={tabKey}
             tabBarStyle={tabKey === '1' ? {color: '#FFF'} : {color: 'black'}}
             >
               <TabPane tab="HOME" key="1"/>
@@ -32,7 +37,7 @@ function App() {
             </Tabs>
           </div>
         </header>
-        {tabKey === '1' && <Home />}
+        {tabKey === '1' && <Home onHandleClick={handleClick} />}
         {tabKey === '2' && <About />}
         {tabKey === '3' && <Fud />}
         {tabKey === '4' && <Contact />}

@@ -2,7 +2,11 @@ import React from 'react'
 import './index.css'
 import MyBottom from '../../components/myBottom'
 
-function Home() {
+function Home(props) {
+  function handleClick() {
+    const { onHandleClick } = props
+    typeof onHandleClick === 'function' && onHandleClick()
+  }
   return (
     <div className="home">
       <div className="des">
@@ -10,7 +14,7 @@ function Home() {
         <p>for</p>
         <p>Blockchain Entrepreneurs</p>
       </div>
-      <a href="" className="about">ABOUT  FFCAP</a>
+      <span onClick={handleClick} className="about">ABOUT  FFCAP</span>
       <MyBottom className="home-bottom"/>
     </div>
   );

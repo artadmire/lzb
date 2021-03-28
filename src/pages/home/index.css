@@ -17,13 +17,14 @@
   margin-bottom: 56px;
 }
 .home .about {
-  height: 28px;
   font-size: 20px;
   font-family: Poppins-Medium, Poppins;
   font-weight: 500;
   color: #EFBB24;
-  line-height: 30px;
+  line-height: 40px;
+  display: inline-block;
   border-bottom: 2px solid #EFBB24;
+  cursor:pointer;
 }
 .home-bottom {
   margin-top: 124px;
