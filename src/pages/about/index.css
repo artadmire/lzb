@@ -6,12 +6,12 @@
   font-size: 24px;
   line-height: 30px;
   margin-bottom: 56px;
-  font-weight: 600;
+  font-weight: bold;
 }
 .my-about .content .title {
   font-size: 16px;
-  font-family: Poppins-Regular, Poppins;
-  font-weight: 500;
+  font-family: Poppins-Bold, Poppins;
+  font-weight: bold;
   color: #1F2931;
   line-height: 24px;
 }
@@ -22,14 +22,7 @@
   line-height: 24px;
   margin-bottom: 24px;
 }
-.my-about .content .titleW {
-  font-size: 16px;
-  font-family: Poppins-Bold, Poppins;
-  font-weight: bold;
-  color: #1F2931;
-  line-height: 24px;
-  margin-bottom: 16px;
-}
+
 .my-about-mddle .card {
   width: 274px;
   height: 180px;

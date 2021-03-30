@@ -4,7 +4,7 @@ import MyBottom from  '../../components/myBottom'
 function About() {
   return (
     <div className="my-about">
-      <p className="h1title">ABOUT FFCAP</p>
+      <div className="h1title">ABOUT FFCAP</div>
       <div className="content">
         <div>
           <p className="title">
@@ -25,13 +25,13 @@ function About() {
           </p>
         </div>
         <div className="my-about-mddle">
-          <p className="h1title">PARTNERSHIPS</p>
+          <div className="h1title">PARTNERSHIPS</div>
           <aside className="top-aside">
             <div className="card-grids">
               <a href="javascript:;" className="card"></a>
               <a href="javascript:;" className="card"></a>
-              <a className="card"></a>
-              <a className="card"></a>
+              <a href="javascript:;" className="card"></a>
+              <a href="javascript:;" className="card"></a>
             </div>
             <img className="logs" src='https://ffcap.oss-cn-hangzhou.aliyuncs.com/img/icon1.png'/>
           </aside>

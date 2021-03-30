@@ -15,14 +15,16 @@ function App() {
     setTabkey(key)
   }
   function handleClick() {
-    console.log(2)
     setTabkey("2")
+  }
+  function goHome() {
+    setTabkey("1")
   }
   return (
     <div className={`App ${tabKey === '1' && 'appBg'} ${tabKey === '2' && 'aboutBg'}`}>
         <div className="content">
         <header>
-          <h2 className={tabKey !== '1' && 'logoH2'}></h2>
+          <h2 onClick={goHome} className={tabKey !== '1' && 'logoH2'}></h2>
           <div>
             <Tabs 
             defaultActiveKey={tabKey}
