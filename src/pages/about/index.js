@@ -20,9 +20,9 @@ function About() {
         We were involved in investment projects since 2017 and have rich experience in how to invest and operate projects. We have many partners, including operations, market, technology, exchange, economic model, business model design and other fields. We can give crpto projects in different stages of development a professional and effective help on a greater degree to help the project to expand its own advantages and characteristics, guiding the project for development of long-term growth.
         </p>
         <p className="title">A long-term value investor with an international perspective.</p>
-          <p>
+          <p className="desc">
           FFCAP has many partners around the world. We devote all our resources to blockchain innovation and long-term value, and for working with the best blockchain teams around the world. At the same time, FFCAP is looking for more excellent partners in the United States, China and Europe to discover more cutting-edge blockchain business thinking and methods.
-          </p>
+          </p> 
         </div>
         <div className="my-about-mddle">
           <div className="h1title partner">PARTNERSHIPS</div>
