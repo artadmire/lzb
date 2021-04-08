@@ -25,7 +25,7 @@ function About() {
           </p>
         </div>
         <div className="my-about-mddle">
-          <div className="h1title">PARTNERSHIPS</div>
+          <div className="h1title partner">PARTNERSHIPS</div>
           <aside className="top-aside">
             <div className="card-grids">
               <a href="javascript:;" className="card"></a>
